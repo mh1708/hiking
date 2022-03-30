@@ -139,11 +139,13 @@
     text-transform: uppercase;
     color: #e2a355;
     font-weight: 700;
+    font-size: 65px;
 }
 
 #section2 .title-heading p {
     text-align: center;
     color: #7f7770;
+    margin-top: 15px;
 }
 
 #section2 .trip {
