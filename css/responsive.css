@@ -1,0 +1,243 @@
+    @media screen and (min-width: 240px) {
+        .title-heading {
+            padding-top: 15px;
+        }
+        #section2 .trip .card {
+            width: 100%;
+            height: 528px;
+        }
+        #favors .img_sale img {
+            display: none;
+        }
+        #favors .title-sale {
+            text-align: center;
+            padding-top: 100px;
+        }
+        #favors .title h3 {
+            font-size: 25px;
+            text-align: center;
+        }
+        #favors .title-sale {
+            padding-left: 0;
+        }
+        #hiking,
+        #explore {
+            margin: -1px;
+        }
+        #favors .date_promte .title a.hire-more {
+            margin-left: 0;
+        }
+        #hiking .item::after,
+        #hiking .item::before,
+        #explore::after,
+        #explore::before,
+        #section7::after,
+        #section7::before,
+        #footer::before {
+            content: none;
+        }
+        #hiking .title {
+            width: 100%;
+        }
+        #explore .item .title {
+            font-size: 18px;
+            text-shadow: none;
+        }
+        #section5 {
+            display: none;
+        }
+        #section6 {
+            display: none;
+        }
+        #section7 .newsletter_contact {
+            width: 100%;
+        }
+        #section7 .newsletter_contact input {
+            width: 95%;
+        }
+        #section7 .newsletter_contact button {
+            right: 8px;
+            width: 30%;
+        }
+        .hire-more {
+            margin-bottom: 50px;
+        }
+    }
+    /*Iphone(480 x 640)*/
+    
+    @media screen and (min-width: 320px) {
+        form.form-inline.my-2.my-lg-0 {
+            display: none;
+        }
+        #section1 .banner:before,
+        #section1 .banner:after {
+            content: none;
+        }
+        #section1 .introduce h1 {
+            font-size: 18px;
+            text-shadow: none;
+        }
+        #section1 .introduce p.sub-title {
+            letter-spacing: 1px;
+            font-size: 10px;
+        }
+        #section1 .hire-more {
+            padding: 10px 5px;
+            margin-top: 0;
+            font-size: 14px;
+        }
+        .nav-menu {
+            position: absolute;
+            top: 100px;
+            background: rgb(204, 204, 204);
+            z-index: 99;
+            width: 100%;
+            left: 0px;
+            padding: 10px 15px;
+            display: none;
+        }
+        #section2 .trip {
+            padding-top: 15px;
+        }
+        #section7 .newsletter_contact h1 {
+            font-size: 55px;
+        }
+    }
+    /*Tablet nhỏ(480 x 640)*/
+    
+    @media screen and (min-width: 480px) {
+        #section2 .trip .card {
+            margin-bottom: 150px
+        }
+    }
+    /*Ipad dọc(768 x 1024)*/
+    
+    @media screen and (min-width: 768px) {
+        #section1 .introduce h1 {
+            font-size: 50px;
+        }
+        #section1 .introduce p.sub-title {
+            font-size: 35px;
+        }
+        #section1 .hire-more {
+            padding: 10px 30px;
+        }
+    }
+    /*Ipad ngang(1024 x 768)*/
+    
+    @media screen and (min-width: 1024px) {
+        .nav-menu {
+            display: flex;
+            background: #fff;
+            right: 0px;
+            top: 30px;
+            width: 70%;
+            left: 33%;
+        }
+    }
+    /*Tablet(1024 x 768)*/
+    
+    @media screen and (min-width: 1200px) {
+        form.form-inline.my-2.my-lg-0 {
+            display: flex;
+        }
+        #section1 .banner:before,
+        #section1 .banner:after {
+            content: "";
+        }
+        #section1 .introduce h1 {
+            text-shadow: 3px -3px #d6d3d0;
+            font-size: 91px;
+        }
+        #section1 .introduce p.sub-title {
+            letter-spacing: 2px;
+            font-size: 25px;
+        }
+        #section1 .hire-more {
+            margin-bottom: 0;
+            padding: 11px 32px;
+            margin-top: 40px;
+            font-size: 25px;
+        }
+        .nav-menu {
+            display: flex;
+            background: #fff;
+            right: 0px;
+            top: 30px;
+            width: 51%;
+            left: 33%;
+        }
+        #section2 .trip {
+            padding-top: 67px;
+        }
+        #section2 .trip .card {
+            width: 343px;
+            height: 528px;
+        }
+        .title-heading {
+            padding-top: 0;
+        }
+        #section2 .trip .card {
+            margin-bottom: 0;
+        }
+        #favors .img_sale img {
+            display: block;
+        }
+        #favors .title-sale {
+            padding-left: 54px;
+            padding-top: 125px;
+        }
+        #favors .title h3 {
+            font-size: 59px;
+            color: #fff;
+            padding: 0 0px;
+            max-width: 500px;
+            text-align: left;
+        }
+        #favors .title-sale {
+            text-align: left;
+        }
+        #favors .date_promte .title p.body-text,
+        #favors .date_promte .title a.hire-more {
+            margin-left: 106px;
+        }
+        #hiking .title {
+            max-width: 900px;
+        }
+        #explore .item .title {
+            font-size: 75px;
+            text-shadow: 3px -3px #a9adaf;
+        }
+        #section5 {
+            display: block;
+        }
+        #section7 .newsletter_contact {
+            max-width: 700px;
+        }
+        #section7 .newsletter_contact h1 {
+            font-size: 75px;
+        }
+        #section7 .newsletter_contact input {
+            width: 80%;
+        }
+        #section6 {
+            display: block;
+        }
+        #hiking .item::after,
+        #hiking .item::before,
+        #explore::after,
+        #explore::before,
+        #section7::after,
+        #section7::before,
+        #footer::before {
+            content: "";
+        }
+        #section7 .newsletter_contact button {
+            right: 69px;
+            width: 20%;
+        }
+        #hiking,
+        #explore {
+            margin-top: 183px;
+        }
+    }

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=vietnamese');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+:root {
+    --text--color: #deb37e;
+    --background-color: #8cc63e;
+    --white-color: #fff;
+}
+
+body {
+    font-family: 'Open San', sans-serif;
+    box-sizing: border-box;
+    background: #fff;
+    color: #000;
+    line-height: 1.42857;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+}
+
+input:focus,
+button:focus {
+    outline: 0;
+    transition: all 0.4s ease;
+    outline: none !important
+}
+
+img {
+    max-width: 100%;
+}
+
+.full-section {
+    width: 100%;
+}
+
+.hire-more {
+    display: inline-block;
+    color: #fff;
+    padding: 18px 74px;
+    background: #7f7770;
+    border-radius: 30px;
+    margin-top: 45px;
+    margin-bottom: 183px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
