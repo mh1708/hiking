@@ -1,243 +1,170 @@
-    @media screen and (min-width: 240px) {
-        .title-heading {
-            padding-top: 15px;
-        }
-        #section2 .trip .card {
-            width: 100%;
-            height: 528px;
-        }
-        #favors .img_sale img {
-            display: none;
-        }
-        #favors .title-sale {
-            text-align: center;
-            padding-top: 100px;
-        }
-        #favors .title h3 {
-            font-size: 25px;
-            text-align: center;
-        }
-        #favors .title-sale {
-            padding-left: 0;
-        }
-        #hiking,
-        #explore {
-            margin: -1px;
-        }
-        #favors .date_promte .title a.hire-more {
-            margin-left: 0;
-        }
-        #hiking .item::after,
-        #hiking .item::before,
-        #explore::after,
-        #explore::before,
-        #section7::after,
-        #section7::before,
-        #footer::before {
-            content: none;
-        }
-        #hiking .title {
-            width: 100%;
-        }
-        #explore .item .title {
-            font-size: 18px;
-            text-shadow: none;
-        }
-        #section5 {
-            display: none;
-        }
-        #section6 {
-            display: none;
-        }
-        #section7 .newsletter_contact {
-            width: 100%;
-        }
-        #section7 .newsletter_contact input {
-            width: 95%;
-        }
-        #section7 .newsletter_contact button {
-            right: 8px;
-            width: 30%;
-        }
-        .hire-more {
-            margin-bottom: 50px;
-        }
+@media only all and (max-width: 320px) {
+    #section1 .hire-more {
+        padding: 8px;
     }
-    /*Iphone(480 x 640)*/
-    
-    @media screen and (min-width: 320px) {
-        form.form-inline.my-2.my-lg-0 {
-            display: none;
-        }
-        #section1 .banner:before,
-        #section1 .banner:after {
-            content: none;
-        }
-        #section1 .introduce h1 {
-            font-size: 18px;
-            text-shadow: none;
-        }
-        #section1 .introduce p.sub-title {
-            letter-spacing: 1px;
-            font-size: 10px;
-        }
-        #section1 .hire-more {
-            padding: 10px 5px;
-            margin-top: 0;
-            font-size: 14px;
-        }
-        .nav-menu {
-            position: absolute;
-            top: 100px;
-            background: rgb(204, 204, 204);
-            z-index: 99;
-            width: 100%;
-            left: 0px;
-            padding: 10px 15px;
-            display: none;
-        }
-        #section2 .trip {
-            padding-top: 15px;
-        }
-        #section7 .newsletter_contact h1 {
-            font-size: 55px;
-        }
+    #section2 .trip {
+        padding: 0;
     }
-    /*Tablet nhỏ(480 x 640)*/
-    
-    @media screen and (min-width: 480px) {
-        #section2 .trip .card {
-            margin-bottom: 150px
-        }
+    #section2 .hire-more {
+        padding: 20px 15px;
     }
-    /*Ipad dọc(768 x 1024)*/
-    
-    @media screen and (min-width: 768px) {
-        #section1 .introduce h1 {
-            font-size: 50px;
-        }
-        #section1 .introduce p.sub-title {
-            font-size: 35px;
-        }
-        #section1 .hire-more {
-            padding: 10px 30px;
-        }
+    #explore .item .title {
+        font-size: 18px;
     }
-    /*Ipad ngang(1024 x 768)*/
-    
-    @media screen and (min-width: 1024px) {
-        .nav-menu {
-            display: flex;
-            background: #fff;
-            right: 0px;
-            top: 30px;
-            width: 70%;
-            left: 33%;
-        }
+}
+
+@media only all and (max-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .form-inline.my-2.my-lg-0 {
+        display: none;
     }
-    /*Tablet(1024 x 768)*/
-    
-    @media screen and (min-width: 1200px) {
-        form.form-inline.my-2.my-lg-0 {
-            display: flex;
-        }
-        #section1 .banner:before,
-        #section1 .banner:after {
-            content: "";
-        }
-        #section1 .introduce h1 {
-            text-shadow: 3px -3px #d6d3d0;
-            font-size: 91px;
-        }
-        #section1 .introduce p.sub-title {
-            letter-spacing: 2px;
-            font-size: 25px;
-        }
-        #section1 .hire-more {
-            margin-bottom: 0;
-            padding: 11px 32px;
-            margin-top: 40px;
-            font-size: 25px;
-        }
-        .nav-menu {
-            display: flex;
-            background: #fff;
-            right: 0px;
-            top: 30px;
-            width: 51%;
-            left: 33%;
-        }
-        #section2 .trip {
-            padding-top: 67px;
-        }
-        #section2 .trip .card {
-            width: 343px;
-            height: 528px;
-        }
-        .title-heading {
-            padding-top: 0;
-        }
-        #section2 .trip .card {
-            margin-bottom: 0;
-        }
-        #favors .img_sale img {
-            display: block;
-        }
-        #favors .title-sale {
-            padding-left: 54px;
-            padding-top: 125px;
-        }
-        #favors .title h3 {
-            font-size: 59px;
-            color: #fff;
-            padding: 0 0px;
-            max-width: 500px;
-            text-align: left;
-        }
-        #favors .title-sale {
-            text-align: left;
-        }
-        #favors .date_promte .title p.body-text,
-        #favors .date_promte .title a.hire-more {
-            margin-left: 106px;
-        }
-        #hiking .title {
-            max-width: 900px;
-        }
-        #explore .item .title {
-            font-size: 75px;
-            text-shadow: 3px -3px #a9adaf;
-        }
-        #section5 {
-            display: block;
-        }
-        #section7 .newsletter_contact {
-            max-width: 700px;
-        }
-        #section7 .newsletter_contact h1 {
-            font-size: 75px;
-        }
-        #section7 .newsletter_contact input {
-            width: 80%;
-        }
-        #section6 {
-            display: block;
-        }
-        #hiking .item::after,
-        #hiking .item::before,
-        #explore::after,
-        #explore::before,
-        #section7::after,
-        #section7::before,
-        #footer::before {
-            content: "";
-        }
-        #section7 .newsletter_contact button {
-            right: 69px;
-            width: 20%;
-        }
-        #hiking,
-        #explore {
-            margin-top: 183px;
-        }
+    #section1 .introduce h1 {
+        font-size: 25px !important;
     }
+    #section1 .introduce p.sub-title {
+        font-size: 12px;
+    }
+    #section1 .hire-more {
+        padding: 10px 20px;
+        margin-top: 0;
+    }
+    #favors .title h3 {
+        font-size: 25px;
+    }
+    #favors .title-sale {
+        height: 250px !important;
+    }
+    #hiking .title {
+        width: 100%;
+    }
+    #explore .item .title {
+        font-size: 25px;
+    }
+    #section5 .item {
+        padding: 0 15px;
+    }
+    #section7 .newsletter_contact {
+        width: 100%;
+        padding: 0 30px;
+    }
+    #section6 .title {
+        width: 100%;
+    }
+}
+
+@media only all and (max-width: 768px) {
+    #section7 .newsletter_contact input {
+        width: 100%;
+    }
+    #section7 .newsletter_contact button {
+        position: absolute;
+        right: 0 !important;
+        width: 35%;
+    }
+    #section1 .introduce h1 {
+        font-size: 35px;
+    }
+    #favors .row {
+        display: block;
+    }
+    #favors .row .col-md-6 {
+        max-width: 100%;
+    }
+    #explore .item .title {
+        font-size: 35px;
+    }
+    #section2 .trip .card:first-child {
+        margin: 0;
+    }
+    #section2 .trip .card {
+        margin-top: 226px;
+        flex-basis: 100% !important;
+    }
+    #section2 .card-img-top {
+        height: auto !important;
+    }
+    #footer ul.footer-title {
+        max-width: 100%;
+    }
+    #footer ul.sub_footer li:first-child a {
+        text-align: center;
+    }
+    #section7 .newsletter_contact h1 {
+        font-size: 50px;
+    }
+    .nav-menu {
+        position: absolute;
+        width: 100%;
+        background: #ccc;
+        top: 96px;
+        z-index: 99;
+        left: 0;
+        display: none;
+    }
+}
+
+@media only all and (max-width: 1024px) {
+    /* ipap pro*/
+    #section1 .banner:before,
+    #section1 .banner:after,
+    #hiking .item::after,
+    #hiking .item::before,
+    #explore::after,
+    #explore::before,
+    #section7::after,
+    #section7::before,
+    #footer::before {
+        content: none;
+    }
+    #section2 .title-heading h3 {
+        font-size: 30px;
+    }
+    #section2 .title-heading p {
+        font-size: 15px;
+    }
+    #section2 .title-heading {
+        padding-top: 25px;
+    }
+    #section2 .trip .card {
+        flex-basis: 30%;
+    }
+    #section2 {
+        background: none
+    }
+    #favors .title-sale {
+        width: 100%;
+        text-align: center;
+        padding: 15px 30px;
+    }
+    #favors .title h3,
+    #favors .title p.body-text {
+        max-width: 100%;
+    }
+    #favors .date_promte .title p.body-text,
+    #favors .date_promte .title a.hire-more {
+        margin-left: 0;
+    }
+    #hiking {
+        margin-top: 0;
+    }
+    #explore {
+        margin-top: 0;
+    }
+    #favors .title-sale {
+        height: 400px;
+    }
+    #section6 {
+        background: none;
+    }
+    #section7 .newsletter_contact button {
+        right: 49px;
+    }
+    #footer ul.footer-title {
+        padding: 0 15px;
+    }
+    .navbar-toggler-icon {
+        display: block;
+    }
+}
+
+@media only all and (max-width: 1324px) {}

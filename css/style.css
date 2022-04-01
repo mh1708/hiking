@@ -355,14 +355,13 @@
     padding: 0 30px 0 0;
 }
 
-#section5 .item .title {
+#section5 .item .title h3 {
     color: #deb37e;
-    font-size: 30px;
-    font-weight: 600;
 }
 
-#section5 .item .body-text {
+#section5 .item .title p {
     text-align: justify;
+    font-size: 20px;
 }
 
 

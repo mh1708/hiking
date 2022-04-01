@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Trang Chủ</title>
 </head>
@@ -20,11 +20,11 @@
     <div id="wrapper">
         <div id="header">
             <div class="container">
-                <nav class="navbar navbar-expand-lg">
+                <nav class="navbar navbar-expand-md">
                     <a class="navbar-brand logo mr-auto" href="#">
                         <img src="images/logo.png" alt="" class="logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler d-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon navbar-toggle">
                           <i class="fa-solid fa-bars"></i>
                         </span>
@@ -142,18 +142,18 @@
             </div>
         </div>
         <div class="row no-gutters">
-            <div class="col-md-6 date_promte">
+            <div class="col-md-6 order-10">
+                <div class="img_sale">
+                    <img src="images/thumb-5.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 date_promte order-1">
                 <div class="title">
                     <div class="title-sale">
                         <h3>January’s Promo: Buy 1 Get 1 Free!</h3>
                         <p class="body-text d-none d-lg-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                         <a href="" class="hire-more">Read More</a>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="img_sale">
-                    <img src="images/thumb-5.png" alt="">
                 </div>
             </div>
 
@@ -185,133 +185,134 @@
     <div id="section5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-xs-12 text-xs-center">
+                <div id="owl-carousel" class="owl-carousel owl-theme">
                     <div class="item">
-                        <p class="title text-xs-center text-lg-left">lorem ipsum</p>
-                        <p class="body-text d-none d-lg-block">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
-                        <p class="body-text d-block d-lg-none">Lorem ipsum dolor sit amet, tation omne ullamco laboris nisi ut aliqolore.</p>
+                        <div class="title">
+                            <h3>lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            <h3 class="font-weight-bold">Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            <h3 class="font-weight-bold">Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+                        </div>
+                    </div>
 
-                    </div>
+
                 </div>
-                <div class="col-md-4 col-xs-12">
-                    <div class="item">
-                        <p class="title  font-weight-bold  text-xs-center text-lg-left">Lorem ipsum</p>
-                        <p class="body-text d-none d-lg-block">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
-                        <p class="body-text d-block d-lg-none">Lorem ipsum dolor sit amet, tation omne ullamco laboris nisi ut aliqolore.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <div class="item">
-                        <p class="title font-weight-bold  text-xs-center text-lg-left">Lorem ipsum</p>
-                        <p class="body-text d-none d-lg-block">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
-                        <p class="body-text d-block d-lg-none">Lorem ipsum dolor sit amet, tation omne ullamco laboris nisi ut aliqolore.</p>
+            </div>
+        </div>
+        <!-- end section 5 -->
+        <!-- section 6 -->
+        <div id="section6" class="full-section">
+            <div class="title">
+                <p class="qoute mb-0">“</p>
+                <p class="body-text d-none d-lg-block">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                <p class="body-text d-block d-lg-none"> Lorem ipsum dolor sit amet, Lorem ipsum</p>
+                <p class="author font-weight-bold">Lorem Ipsum</p>
+            </div>
+        </div>
+        <!-- end section 6 -->
+        <!--section 7 -->
+        <div id="section7" class="full-section">
+            <div class="newsletter_contact">
+                <h1 class="">Title Here</h1>
+                <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <p class="d-block d-lg-none">Lorem ipsum dolor sit amet. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <form action="#" method="Post">
+                    <input type="text" name="text" placeholder="Your Email">
+                    <button type="button" class="btn btn-default">Subscribe</button>
+                </form>
+
+            </div>
+        </div>
+        <div id="footer">
+            <div class="item">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-6 col- text-center text-md-left p-0">
+                            <ul class="footer-title">
+                                <li>
+                                    <a href="" class="heading">Title Here</a>
+                                    <ul class="sub_footer">
+                                        <li><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </a></li>
+                                        <li class="social">
+                                            <a href="" class="pl-0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-brands fa-viber"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 text-center text-lg-left">
+                            <ul class="footer-nav">
+                                <li>
+                                    <a href="" class="heading">About</a>
+                                    <ul class="sub-footer">
+                                        <li><a href="">History</a></li>
+                                        <li><a href="">Our Team </a></li>
+                                        <li><a href="">Brand Guidelines</a></li>
+                                        <li><a href="">Terms & Condition</a></li>
+                                        <li><a href="">Privacy Policy</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2  text-center text-lg-left">
+                            <ul class="footer-nav">
+                                <li>
+                                    <a href="" class="heading">Services</a>
+                                    <ul class="sub-footer">
+                                        <li><a href="">How to Order</a></li>
+                                        <li><a href="">Our Product</a></li>
+                                        <li><a href="">Order Status</a></li>
+                                        <li><a href="">Promo</a></li>
+                                        <li><a href="">Payment Method</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2  text-center text-lg-left">
+                            <ul class="footer-nav">
+                                <li>
+                                    <a href="" class="heading">Other</a>
+                                    <ul class="sub-footer">
+                                        <li><a href="">Contact Us</a></li>
+                                        <li><a href="">Help</a></li>
+                                        <li><a href="">Privacy</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- end section 5 -->
-    <!-- section 6 -->
-    <div id="section6" class="full-section">
-        <div class="title">
-            <p class="qoute mb-0">“</p>
-            <p class="body-text d-none d-lg-block">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-            <p class="body-text d-block d-lg-none"> Lorem ipsum dolor sit amet, Lorem ipsum</p>
-            <p class="author font-weight-bold">Lorem Ipsum</p>
-        </div>
-    </div>
-    <!-- end section 6 -->
-    <!--section 7 -->
-    <div id="section7" class="full-section">
-        <div class="newsletter_contact">
-            <h1 class="">Title Here</h1>
-            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-            <p class="d-block d-lg-none">Lorem ipsum dolor sit amet. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
-            <form action="#" method="Post">
-                <input type="text" name="text" placeholder="Your Email">
-                <button type="button" class="btn btn-default">Subscribe</button>
-            </form>
-
-        </div>
-    </div>
-    <div id="footer">
-        <div class="item">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6  text-center text-lg-left p-0">
-                        <ul class="footer-title">
-                            <li>
-                                <a href="" class="heading">Title Here</a>
-                                <ul class="sub_footer">
-                                    <li><a href="" class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </a></li>
-                                    <li class="social">
-                                        <a href="" class="pl-0">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                        <a href="">
-                                            <i class="fa-brands fa-facebook-f"></i>
-                                        </a>
-                                        <a href="">
-                                            <i class="fa-brands fa-twitter"></i>
-                                        </a>
-                                        <a href="">
-                                            <i class="fa-brands fa-viber"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 text-center text-lg-left">
-                        <ul class="footer-nav">
-                            <li>
-                                <a href="" class="heading">About</a>
-                                <ul class="sub-footer">
-                                    <li><a href="">History</a></li>
-                                    <li><a href="">Our Team </a></li>
-                                    <li><a href="">Brand Guidelines</a></li>
-                                    <li><a href="">Terms & Condition</a></li>
-                                    <li><a href="">Privacy Policy</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2  text-center text-lg-left">
-                        <ul class="footer-nav">
-                            <li>
-                                <a href="" class="heading">Services</a>
-                                <ul class="sub-footer">
-                                    <li><a href="">How to Order</a></li>
-                                    <li><a href="">Our Product</a></li>
-                                    <li><a href="">Order Status</a></li>
-                                    <li><a href="">Promo</a></li>
-                                    <li><a href="">Payment Method</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2  text-center text-lg-left">
-                        <ul class="footer-nav">
-                            <li>
-                                <a href="" class="heading">Other</a>
-                                <ul class="sub-footer">
-                                    <li><a href="">Contact Us</a></li>
-                                    <li><a href="">Help</a></li>
-                                    <li><a href="">Privacy</a></li>
-
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
 </body>
 <!-- script -->
+<!-- <script src="js/bootstrap.min.js"></script> -->
 <script src="js/jquery-3.6.0.js"></script>
-<script src="js/popper.min.js "></script>
-<script src="js/bootstrap.min.js "></script>
-<script src="js/app.js "></script>
-<script src="js/owl.carousel.min.js "></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/base.js"></script>
+<!-- <script src="js/popper.min.js "></script> -->
+
+<script src="js/app.js"></script>
