@@ -5,11 +5,11 @@
     #section2 .trip {
         padding: 0;
     }
-    #section2 .hire-more {
-        padding: 20px 15px;
-    }
     #explore .item .title {
         font-size: 18px;
+    }
+    #section2 .trip a.hire-more {
+        padding: 15px 50px;
     }
 }
 
@@ -27,6 +27,7 @@
     #section1 .hire-more {
         padding: 10px 20px;
         margin-top: 0;
+        font-size: 15px;
     }
     #favors .title h3 {
         font-size: 25px;
@@ -34,14 +35,8 @@
     #favors .title-sale {
         height: 250px !important;
     }
-    #hiking .title {
-        width: 100%;
-    }
     #explore .item .title {
         font-size: 25px;
-    }
-    #section5 .item {
-        padding: 0 15px;
     }
     #section7 .newsletter_contact {
         width: 100%;
@@ -49,26 +44,72 @@
     }
     #section6 .title {
         width: 100%;
+        padding: 20px;
+    }
+    #footer ul.sub_footer li:first-child a {
+        text-align: left !important;
+    }
+    #section5 .item .title p {
+        font-size: 16px;
+        text-align: center;
+    }
+    #section5 .item .title h3 {
+        text-align: center;
+    }
+    #section2 .trip .card-body {
+        text-align: center;
+    }
+    #section1 .banner .introduce {
+        margin-left: 30px;
+        margin-top: -188px !important;
+    }
+    #favors .title a.hire-more {
+        padding: 10px 55px;
+    }
+    #section2 .trip .container .card {
+        margin-top: 0;
+    }
+    #section2 .title-heading .container p {
+        font-size: 24px;
+    }
+    #section2 .trip a.hire-more {
+        margin-top: 50px;
+    }
+    #hiking .title h3 {
+        font-size: 45px;
+    }
+    #hiking .item {
+        height: 440px;
+    }
+    #section7 .newsletter_contact p {
+        font-size: 18px;
     }
 }
 
-@media only all and (max-width: 768px) {
+@media only all and (max-width: 600px) {
+    #section7 .footer-nav li {
+        text-align: center;
+    }
+    #section1 .introduce {
+        position: sticky;
+        margin-top: -347px !important;
+    }
+    #section5 .item {
+        padding: 0 15px;
+    }
+}
+
+@media only all and (max-width: 767px) {
     #section7 .newsletter_contact input {
         width: 100%;
     }
     #section7 .newsletter_contact button {
         position: absolute;
-        right: 0 !important;
-        width: 35%;
+        right: -2px !important;
+        width: 35% !important;
     }
     #section1 .introduce h1 {
         font-size: 35px;
-    }
-    #favors .row {
-        display: block;
-    }
-    #favors .row .col-md-6 {
-        max-width: 100%;
     }
     #explore .item .title {
         font-size: 35px;
@@ -87,40 +128,44 @@
         max-width: 100%;
     }
     #footer ul.sub_footer li:first-child a {
-        text-align: center;
+        font-size: 18px;
+        ;
+        text-align: left;
     }
     #section7 .newsletter_contact h1 {
         font-size: 50px;
     }
-    .nav-menu {
+    #header .header-nav {
+        display: none;
         position: absolute;
         width: 100%;
         background: #ccc;
-        top: 96px;
         z-index: 99;
+        top: 100px;
         left: 0;
-        display: none;
+    }
+    #favors .img_sale img {
+        height: auto !important;
+    }
+    #section2 a.hire-more {
+        margin-bottom: 100px;
+        margin-top: 160px;
+    }
+    #section1 .introduce {
+        margin-top: -300px !important;
+    }
+    #hiking .title {
+        width: 100%;
     }
 }
 
 @media only all and (max-width: 1024px) {
     /* ipap pro*/
-    #section1 .banner:before,
-    #section1 .banner:after,
-    #hiking .item::after,
-    #hiking .item::before,
-    #explore::after,
-    #explore::before,
-    #section7::after,
-    #section7::before,
-    #footer::before {
-        content: none;
-    }
     #section2 .title-heading h3 {
-        font-size: 30px;
+        font-size: 50px;
     }
     #section2 .title-heading p {
-        font-size: 15px;
+        font-size: 28px;
     }
     #section2 .title-heading {
         padding-top: 25px;
@@ -144,27 +189,94 @@
     #favors .date_promte .title a.hire-more {
         margin-left: 0;
     }
-    #hiking {
-        margin-top: 0;
-    }
-    #explore {
-        margin-top: 0;
-    }
     #favors .title-sale {
         height: 400px;
     }
     #section6 {
         background: none;
     }
-    #section7 .newsletter_contact button {
-        right: 49px;
-    }
     #footer ul.footer-title {
         padding: 0 15px;
+        text-align: left;
     }
-    .navbar-toggler-icon {
-        display: block;
+    #header .header-nav li {
+        padding: 5px 30px;
+    }
+    #header .header-nav li a {
+        padding: 20px 0;
+    }
+    #section7 .newsletter_contact {
+        width: 90%;
     }
 }
 
-@media only all and (max-width: 1324px) {}
+@media only all and (max-width: 1369px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: block !important;
+    }
+    #header .header-nav {
+        display: none;
+        position: absolute;
+        top: 100px;
+        z-index: 99;
+        width: 100%;
+        background: rgb(204, 204, 204);
+        left: 0px;
+    }
+    #favors .img_sale img {
+        height: auto;
+    }
+    #favors .row .col-md-6 {
+        max-width: 100%;
+    }
+    #favors .row {
+        display: block;
+    }
+    #section2 .trip .card {
+        width: 300px;
+    }
+    #favors .title h3 {
+        max-width: 100%;
+    }
+    #favors .title-sale {
+        padding-top: 20px;
+        text-align: center;
+    }
+    #favors .title p.body-text {
+        max-width: 100%;
+    }
+    #section1 .banner:before,
+    #section1 .banner:after,
+    #hiking .item::after,
+    #hiking .item::before,
+    #explore::after,
+    #explore::before,
+    #section7::after,
+    #section7::before,
+    #footer::before {
+        content: none;
+    }
+    #section1 .introduce h1 {
+        font-size: 48px;
+    }
+    #favors .title-sale {
+        padding: 15px;
+    }
+    #section1 .introduce {
+        position: sticky;
+        margin-top: -440px;
+    }
+    #section2 {
+        padding-top: 200px;
+    }
+    #section7 .newsletter_contact button {
+        right: 55px;
+        width: 20%;
+    }
+    #hiking {
+        margin-top: 0;
+    }
+    #explore {
+        margin-top: 0;
+    }
+}

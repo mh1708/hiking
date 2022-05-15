@@ -12,7 +12,9 @@
     height: auto;
 }
 
-#header .header-nav {}
+#header .header-nav {
+    display: flex;
+}
 
 #header .header-nav li {
     padding: 0 30px
@@ -26,9 +28,9 @@
     color: #54524f;
     font-size: 16px;
     display: block;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
 }
 
 #header .header-nav li:hover a {
@@ -46,6 +48,8 @@
 #header .search-icon {
     position: absolute;
     right: 50px;
+    font-size: 27px;
+    color: #68635f;
 }
 
 
@@ -59,19 +63,25 @@
     position: relative;
 }
 
+#section1 .banner-logo {
+    height: auto;
+}
+
 #section1 .banner:after {
     content: " ";
-    background-image: url(/images/shape-2.png);
+    background-image: url("../images/shape-2.png");
+    background-repeat: no-repeat;
     position: absolute;
+    background-size: contain;
     left: 0px;
-    bottom: 0px;
-    height: 95px;
+    bottom: -86px;
+    height: 188px;
     width: 100%;
 }
 
 #section1 .banner:before {
     content: " ";
-    background-image: url(/images/shape-1.png);
+    background-image: url("../images/shape-1.png");
     position: absolute;
     height: 98px;
     width: 100%;
@@ -80,7 +90,7 @@
 
 #section1 .introduce {
     position: absolute;
-    top: 25%;
+    top: 30%;
     max-width: 550px;
     left: 9%;
 }
@@ -103,6 +113,7 @@
 #section1 .hire-more {
     margin-top: 29px;
     margin-bottom: 0;
+    font-size: 25px;
     background: #fefdfc;
     color: #776c64;
     padding: 11px 32px;
@@ -131,7 +142,8 @@
 /* section2 */
 
 #section2 {
-    background: url(/images/Shadow.png) bottom left no-repeat;
+    background: url("../images/Shadow.png") bottom left no-repeat;
+    padding-top: 100px;
 }
 
 #section2 .title-heading h3 {
@@ -177,6 +189,7 @@
 
 #favors {
     position: relative;
+    padding-top: 40px;
 }
 
 #favors .img_sale img {
@@ -237,14 +250,14 @@
 /* hiking */
 
 #hiking {
-    background: url(/images/Shadow.png) left no-repeat;
+    background: url("../images/Shadow.png") left no-repeat;
     margin-top: 120px;
     background-color: #99928d;
 }
 
 #hiking .item::after {
     content: " ";
-    background-image: url(/images/shape-1.png);
+    background-image: url("../images/shape-1.png");
     position: absolute;
     left: 0px;
     height: 95px;
@@ -254,7 +267,7 @@
 
 #hiking .item::before {
     content: " ";
-    background-image: url(/images/shape-2.png);
+    background-image: url("../images/shape-2.png");
     position: absolute;
     left: 0px;
     height: 95px;
@@ -279,7 +292,7 @@
 
 #hiking .title h3 {
     color: #fff;
-    font-size: 45px;
+    font-size: 58px;
 }
 
 #hiking .title p {
@@ -287,9 +300,9 @@
     letter-spacing: 0.5px;
     padding: 0 0px;
     max-width: 800px;
-    font-size: 18px;
+    font-size: 24px;
     margin-top: 60px;
-    padding: 0px 33px;
+    padding: 0px 24px
 }
 
 
@@ -302,7 +315,7 @@
 
 #explore::after {
     content: " ";
-    background-image: url(/images/shape-1.png);
+    background-image: url("../images/shape-1.png");
     position: absolute;
     left: 0px;
     height: 95px;
@@ -312,7 +325,7 @@
 
 #explore::before {
     content: " ";
-    background-image: url(/images/shape-2.png);
+    background-image: url("../images/shape-2.png");
     position: absolute;
     left: 0px;
     height: 95px;
@@ -370,7 +383,7 @@
 #section6 {
     position: relative;
     height: 569px;
-    background: url(/images/Shadow-2.png) center right -200px no-repeat;
+    background: url("../images/Shadow-2.png") center right -200px no-repeat;
 }
 
 #section6 .title {
@@ -412,7 +425,7 @@
 
 #section7::after {
     content: " ";
-    background-image: url(/images/shape-1.png);
+    background-image: url("../images/shape-1.png");
     position: absolute;
     left: 0px;
     height: 95px;
@@ -422,7 +435,7 @@
 
 #section7::before {
     content: " ";
-    background-image: url(/images/shape-2.png);
+    background-image: url("../images/shape-2.png");
     position: absolute;
     left: 0px;
     height: 95px;
@@ -448,7 +461,7 @@
 #section7 .newsletter_contact p {
     padding-top: 22px;
     color: #54524f;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 #section7 .newsletter_contact form {
@@ -459,18 +472,18 @@
     width: 80%;
     border-radius: 20px;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 #section7 .newsletter_contact button {
     padding-top: 85px;
     background: #54524f;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 50px;
     position: absolute;
-    right: 69px;
+    right: 66px;
     width: 20%;
-    padding: 10px 0px;
+    padding: 9px 0px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -489,7 +502,7 @@
 
 #footer::before {
     content: " ";
-    background-image: url(/images/shape-1.png);
+    background-image: url("../images/shape-1.png");
     position: absolute;
     left: 0px;
     height: 95px;
@@ -541,9 +554,9 @@
 
 #footer ul.sub_footer li.social i {
     background: #fff;
-    padding: 10px 12px;
+    padding: 13px 14px;
     color: #7f7770;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 #footer ul.sub-footer {

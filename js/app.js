@@ -1,10 +1,14 @@
 $(document).ready(function() {
-    $('.navbar-toggler').click(function() {
+    $('.navbar-toggle').click(function() {
         //click xong => hiển thị menu-responsive bằng việc xổ từ trên xuống dưới
 
-        $('.nav-menu').slideToggle("slow"); //slideDown + slideUp = slideToggle      
+
+        $('.header-nav').slideToggle(); //slideDown + slideUp = slideToggle  
 
     });
+
+
+
     $('#owl-carousel').owlCarousel({
         loop: true,
         margin: 30,
